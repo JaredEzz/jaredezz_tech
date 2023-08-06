@@ -1,0 +1,23 @@
+---
+---
+
+<div id="utterances-container"></div>
+
+<script>
+    const script = document.createElement("script");
+    const container = document.querySelector("#utterances-container");
+
+    Object.entries({
+        src: "https://utteranc.es/client.js",
+        repo: "jaredezz/jaredezz_tech",
+        "issue-term": "pathname",
+        label: "comment",
+        theme: "github-dark",
+        crossorigin: "anonymous",
+        async: "true",
+    }).forEach(([key, value]) => {
+        script.setAttribute(key, value);
+    });
+
+    container?.appendChild(script);
+</script>
