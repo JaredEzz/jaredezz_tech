@@ -3,7 +3,7 @@ author: JaredEzz
 pubDatetime: 2023-08-05T17:15:00.000Z
 title: AI code reviews are here
 postSlug: ai-code-reviews
-featured: true
+featured: false
 tags:
   - ai
   - code-review
