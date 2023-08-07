@@ -33,11 +33,13 @@ The internet is amazing. The amount of information that can be shared today comp
 
 While I've probably listened to one or two episodes from hundreds of podcasts, here are those I find myself coming back to often, and in some cases, those I've listened to every one of or do my best to listen to weekly.
 
+---
+
 ## [followHIM](https://followhim.co/)
 
-_Genre:_ Religious
+_**Genre:** Religious_
 
-_Hosted by:_ Hank Smith, John Bytheway, and other LDS professors, scholars, etc.
+_**Hosted by:** Hank Smith, John Bytheway, and other LDS professors, scholars, etc._
 
 This one comes first because I was listening to it earlier today, and it's related to something that means the most to me personally.
 
@@ -55,13 +57,13 @@ These are my recommended because I listened to them this week and I think Paul's
 <p></p>
 <img src="/assets/fitbitshare_1282423064.PNG" alt="Kayaking Fitbit Map" style="width:400px;"/>
 
-<hr class="dashed">
+---
 
 ## [The Vergecast](https://www.theverge.com/the-vergecast)
 
-**\*Genre:** Tech News\*
+_**Genre:** Tech News_
 
-**\*Hosted by:** Nilay Patel, (formerly) Dieter Bohn, and the Verge Staff\*
+_**Hosted by:** Nilay Patel, (formerly) Dieter Bohn, and the Verge Staff_
 
 As the flagship of the Vox Media podcast fleet, I've listened to the Vergecast quite regularly since I started working in the software industry as a high school senior, in 2015.
 
@@ -76,13 +78,14 @@ There have been many spin-off podcasts from the Vergecast over the years, and wh
 - **[Ctrl, Walt, Delete:](https://www.theverge.com/ctrl-walt-delete)** The legendary tech reporter Walt Mossberg and Nilay talk tech journalism and history
 - **[Converge:](https://www.theverge.com/converge)** Casey Newton's hilarious conversational game-show w/ Silicon Valley tech entreprenuers
 - **[Decoder:](https://www.theverge.com/decoder-podcast-with-nilay-patel)** A newer podcast that's more business focused, Nilay interviews tech (& other) CEOs about their companies and what it's like to run them
-<hr class="dashed">
+
+---
 
 ## [Dear Hank & John](https://www.wnycstudios.org/podcasts/dear-hank-john)
 
-**\*Genre:** Advice Column\*
+_**Genre:** Advice Column_
 
-**\*Hosted by:** Hank Green & John Green, the Vlogbrothers\*
+_**Hosted by:** Hank Green & John Green, the Vlogbrothers_
 
 This is a unique one in that I've listened to it from the start. I tend to skip over the episodes where one brother is away and a guest speaker joins them, but I've heard most, if not all, of the rest.
 
@@ -90,15 +93,15 @@ It's a comfort podcast to me, one where I get the inside jokes and love to hear 
 
 While I don't have any specific episodes to recommend, you can pick any one and jump right in. Be warned though, many inside jokes have accumulated over the lifetime of the show, so an earlier one may be a better bet.
 
-<hr class="dashed">
+---
 
 ## [The Omnibus](https://www.omnibusproject.com/)
 
-**\*Genre:** Documentary\*
+_**Genre:** Documentary_
 
-**\*Hosted by:** Ken Jennings & John Roderick\*
+_**Hosted by:** Ken Jennings & John Roderick_
 
-**\*Official Description:** An encyclopedic reference of strange-but-true stories compiled as a time capsule for future generations.\*
+_**Official Description:** An encyclopedic reference of strange-but-true stories compiled as a time capsule for future generations._
 
 I started listening to the Omnibus after watching the Jeopardy GOAT tournament in Jan 2020. I've long looked up to Ken for his initial Jeopardy prowess, and as a fellow computer science nerd and member of the Church of Jesus Christ of Latter Day Saints. John brings a completely separate but equally valuable perspective.
 
@@ -109,13 +112,14 @@ It's a fun and engaging podcast with a unique premise, and I have to say I've le
 <iframe src="https://player.fireside.fm/v2/ihPImuO_+RU8GFxIG?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
 <p></p>
 <iframe src="https://player.fireside.fm/v2/ihPImuO_+POtkDD3u?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
-<hr class="dashed">
+
+---
 
 ## [TED Talks Daily](https://www.ted.com/about/programs-initiatives/ted-talks/ted-talks-daily)
 
-**\*Genre:** Educational\*
+_**Genre:** Educational_
 
-**\*Hosted by:** Elise Hu & various TED presenters\*
+_**Hosted by:** Elise Hu & various TED presenters_
 
 Short-form summaries of some of the best TED talks out there. What more could you want?
 
@@ -123,12 +127,12 @@ This is for when I don't feel like hunkering down for an hour or more of audio a
 
 The amount of preparation that goes into each TED talk is astounding, so these are incredibly concentrated ways to peek into a certain field of study.
 
-<hr class="dashed">
+---
 
 ## [The Anthropocene Reviewed](https://www.wnycstudios.org/podcasts/anthropocene-reviewed)
 
-**\*Genre:** Commentary\*
-**\*Hosted by:** John Green\*
+_**Genre:** Commentary_
+_**Hosted by:** John Green_
 
 John's the author of the Fault in our Stars and just has a good writing style. He did a few dozen episodes and then stopped, then wrote a book with all the podcast episodes and more in it. It's basically the Omnibus but two topics per episode instead of one, one guy instead of two, and much more literary than conversational. He's an incredible writer, and it comes across in each of the episodes.
 

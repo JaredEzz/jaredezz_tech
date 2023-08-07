@@ -3,7 +3,7 @@ author: JaredEzz
 pubDatetime: 2023-08-05T17:15:00.000Z
 title: AI code reviews are here
 postSlug: ai-code-reviews
-featured: false
+featured: true
 tags:
   - ai
   - code-review
@@ -142,7 +142,7 @@ Feel free to make pull requests, suggestions, or bring up issues on the [GitHub 
 
 Happy Coding!
 
-<hr class="dashed">
+---
 
 #### Footnotes
 
