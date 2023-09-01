@@ -1,6 +1,6 @@
 ---
 author: JaredEzz
-pubDatetime: 2023-01-31T15:46:00.000Z
+pubDatetime: 2023-09-01T15:46:00.000Z
 title: Backup Cloud Firestore to Google Storage with v2 Cloud Functions
 postSlug: firestore-cloud-backups
 featured: true
