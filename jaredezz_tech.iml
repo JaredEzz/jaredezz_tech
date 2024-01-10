@@ -2,11 +2,7 @@
 <module type="GENERAL_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/src/embedded/embedded_fl_dot_line_segment_painter/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/src/embedded/embedded_fl_dot_line_segment_painter/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/src/embedded/embedded_fl_dot_line_segment_painter/build" />
-    </content>
+    <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
