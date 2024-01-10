@@ -4,7 +4,6 @@ pubDatetime: 2024-01-09T12:49:00.000Z
 title: Custom FlDotLineSegmentPainter for Prototyping
 postSlug: fl-dot-line-segment-painter
 featured: true
-draft: true
 tags:
   - flutter
   - prototyping
@@ -45,8 +44,9 @@ Here's the code gist for the custom painter:
 ## Demo
 For demonstration purposes, here's a placeholder for the component I created with the custom FlDotPainter. 
 
-<object type="text/html" data="./pink_square.html" width="1000" height="1000"></object>
-<DateTime {...props} />
+<object type="text/html" data="/pink.html" width="150" height="150"></object>
+
+<object type="text/html" data="/embedded/embedded_fl_dot_line_segment_painter/build/web/index.html" width="1500" height="1500"></object>
 
 This technique was inspired by a recent Flutter Forward talk by Tim Sneath. [Watch the demo here](https://www.youtube.com/watch?v=zKQYGKAe5W8&t=5799s).
 
