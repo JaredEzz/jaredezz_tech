@@ -2,7 +2,7 @@
 author: JaredEzz
 pubDatetime: 2023-03-20T18:45:04.000Z
 title: Software Estimation
-featured: true
+featured: false
 tags:
   - software-estimation
   - project-management
