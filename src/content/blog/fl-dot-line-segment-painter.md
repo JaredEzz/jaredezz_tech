@@ -146,4 +146,4 @@ The result was a custom FlDotPainter that perfectly matched the proposed design,
 
 ![Resulting Graph with Custom Line Painter](/assets/custom-line-painter.png)
 
-I've also submitted a [pull request]() to the fl_chart package, so this painter might be included in a future release. 
+I've also submitted a [pull request](https://github.com/imaNNeo/fl_chart/pull/1544) to the fl_chart package, so this painter might be included in a future release. 
