@@ -3,7 +3,7 @@ author: JaredEzz
 pubDatetime: 2024-01-09T12:49:00.000Z
 title: Custom FlDotLineSegmentPainter for Prototyping
 postSlug: fl-dot-line-segment-painter
-featured: true
+featured: false
 draft: false
 tags:
   - flutter
