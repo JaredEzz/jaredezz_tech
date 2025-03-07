@@ -4,7 +4,7 @@ pubDatetime: 2025-03-07T12:14:00.000Z
 title: Mango Sticky Rice & Peanut Satay Chicken
 postSlug: mango-rice-peanut-chicken
 featured: false
-draft: true
+draft: false
 tags:
   - food
 description: Recipe for Mango Sticky Rice & Peanut Satay Chicken
