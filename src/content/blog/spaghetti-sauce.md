@@ -9,8 +9,6 @@ tags:
   - food
 description: Recipe for Spaghetti Sauce
 ---
-# Spaghetti Sauce
-
 - 1 lb. ground beef
 - 1 lb. mild Italian sausage, browned on stovetop
 - Two 24oz cans Hunt's spaghetti sauce (traditional and garlic \& basil, flavor not super important)
