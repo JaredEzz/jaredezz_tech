@@ -19,7 +19,7 @@ Both Java and Bedrock players play on the same world via [GeyserMC](https://geys
 ## About the Server
 
 - **Software:** [Paper](https://papermc.io/) — a high-performance Minecraft server fork
-- **Resource Pack:** [Faithful 32x](https://faithfulpack.net/) — automatically downloaded when you join
+- **Resource Pack:** [Faithful 32x](https://faithfulpack.net/) — you'll be prompted to download it when you join (optional)
 - **Cross-play:** Java and Bedrock players can play together via [GeyserMC](https://geysermc.org/) + [Floodgate](https://geysermc.org/wiki/floodgate/)
 - **Difficulty:** Normal
 - **View Distance:** 10 chunks
