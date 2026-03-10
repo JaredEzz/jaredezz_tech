@@ -3,7 +3,8 @@ author: JaredEzz
 pubDatetime: 2026-03-10T21:00:00.000Z
 title: How to Join Jared's Minecraft Server
 postSlug: minecraft-server
-featured: true
+featured: false
+draft: true
 tags:
   - minecraft
   - gaming
