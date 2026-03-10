@@ -23,16 +23,14 @@ Both Java and Bedrock players play on the same world via GeyserMC.
 ### Mac
 1. Open **Minecraft: Java Edition**
 2. Click **Multiplayer** → **Add Server**
-3. Server Address: `craft.jaredezz.tech:25565`
+3. Server Address: `craft.jaredezz.tech`
 4. Click **Done**, then select the server and click **Join Server**
 
 ### Windows
 1. Open **Minecraft: Java Edition** (from the Minecraft Launcher, make sure "Java Edition" is selected)
 2. Click **Multiplayer** → **Add Server**
-3. Server Address: `craft.jaredezz.tech:25565`
+3. Server Address: `craft.jaredezz.tech`
 4. Click **Done**, then select the server and click **Join Server**
-
-> Port 25565 is the default Java port — you can also just enter the IP without the port.
 
 ---
 
