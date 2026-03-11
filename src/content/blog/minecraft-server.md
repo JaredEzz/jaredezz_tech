@@ -91,6 +91,19 @@ Same steps as above after changing DNS.
 
 ---
 
+## Account Linking (Cross-Play)
+
+If you play on both Java and Bedrock, the server treats them as two separate players by default — different inventory, position, and progress. To fix this, link your accounts so the server recognizes you as the same player regardless of which platform you're on.
+
+1. Go to [link.geysermc.org](https://link.geysermc.org/)
+2. Sign in with your **Java Edition** (Mojang/Microsoft) account
+3. Sign in with your **Bedrock Edition** (Microsoft) account
+4. Done — your accounts are now linked globally across all GeyserMC servers
+
+After linking, your inventory, position, and progress will be shared whether you join from PC or Switch.
+
+---
+
 ## Troubleshooting
 
 - **"Unable to connect"** — The server might be down or restarting. Try again in a minute.
