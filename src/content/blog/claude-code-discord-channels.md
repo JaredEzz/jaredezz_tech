@@ -14,44 +14,39 @@ tags:
   - self-hosted
   - nixos
   - gcp
-description: How I set up Claude Code's new Channels feature to chat with my AI coding assistant from Discord — and how you can build a sanctioned, subscription-backed chatbot for non-technical users too.
+description: Claude Code just shipped Discord and Telegram channels. Here's how I set it up as a persistent homelab agent — and why it replaces the OpenClaw pattern entirely.
 ---
 
 ## Table of Contents
 
 ## What Are Claude Code Channels?
 
-Anthropic just shipped [Claude Code Channels](https://code.claude.com/docs/en/channels) as a research preview, and it's one of the more quietly significant releases in the Claude ecosystem.
+Anthropic shipped [Claude Code Channels](https://code.claude.com/docs/en/channels) yesterday as a research preview. The idea is simple: instead of Claude Code being something you sit at a terminal and type into, it becomes a background worker. Channels are MCP servers that push events into a running session, so Claude can react to things while you're away from your desk.
 
-The short version: Channels are MCP servers that push events into a *running* Claude Code session. Instead of Claude Code being something that holds your terminal hostage while you type at it, it becomes a background worker you can hand tasks to from anywhere — including your phone.
+The two supported channels right now are Telegram and Discord. Install a plugin, point it at a bot token, launch with `--channels`, pair your account, and from that point on your bot is a real Claude Code session — full tool access, your filesystem, whatever you've got running on the server.
 
-The first two officially supported channels are **Telegram** and **Discord**. You install a plugin, configure a bot token, launch with `--channels`, pair your account, and from that point on you can DM your bot to kick off coding tasks, ask questions about your codebase, or manage your homelab — all from your phone.
+I run a Proxmox homelab with a NixOS LXC as my app server. I wanted to be able to kick off coding tasks from my phone without Tailscaling in, opening Termius, and typing like a normal person. This solves that.
 
-This is the "OpenClaw on a subscription" pattern, done properly. Instead of running a third-party agent with broad permissions and [documented security vulnerabilities](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/), you're running Claude Code — the actual Anthropic product — with a Claude Max subscription that explicitly sanctions this usage.
+It's also the "OpenClaw on a real subscription" pattern, done properly. More on that later.
 
-## What You'll Need
+## What You Need
 
-- **Claude Code v2.1.80 or later** — `claude update` if you're behind
-- **A Claude Max subscription** (Channels require claude.ai login — API keys are not supported)
+- **Claude Code v2.1.80+** — `claude update`
+- **Claude Max** ($100/month) — Channels require claude.ai login, API keys don't work
 - **Bun** — the channel plugins are Bun scripts
-- **A Discord bot** — free to create in the Discord Developer Portal
-- **A server to run it on** — your homelab, a VPS, a spare machine
+- **A Discord bot** — free, takes 5 minutes in the Developer Portal
+- **Somewhere to run it** — homelab, VPS, whatever
 
 ## Setting Up the Discord Bot
 
-Head to [discord.com/developers/applications](https://discord.com/developers/applications):
+[discord.com/developers/applications](https://discord.com/developers/applications) → New Application:
 
-1. **New Application** — give it a name
-2. Go to the **Bot** section — create a username, click **Reset Token**, copy it
-3. Scroll down to **Privileged Gateway Intents** — enable **Message Content Intent**
-4. Go to **OAuth2 → URL Generator** — select `bot` scope with these permissions:
-   - View Channels
-   - Send Messages
-   - Send Messages in Threads
-   - Read Message History
-   - Attach Files
-   - Add Reactions
-5. Open the generated URL and invite the bot to a server (a private one just for you is fine)
+1. **Bot** section → create a username → Reset Token → copy it, keep it safe
+2. Enable **Message Content Intent** under Privileged Gateway Intents
+3. **OAuth2 → URL Generator** → `bot` scope, with: View Channels, Send Messages, Send Messages in Threads, Read Message History, Attach Files, Add Reactions
+4. Open the generated URL, add the bot to a server
+
+One important thing: **bots can't be added to group DMs**. They join servers. So if you want other people to use the same bot, you need a server text channel — not a group DM. I'll get to that.
 
 ## Installing the Plugin
 
@@ -61,7 +56,7 @@ In a Claude Code session:
 /plugin install discord@claude-plugins-official
 ```
 
-Save your bot token somewhere secure. On Linux I use a dedicated env file with tight permissions:
+Store the token securely:
 
 ```bash
 mkdir -p ~/.claude/channels/discord
@@ -69,61 +64,95 @@ echo "DISCORD_BOT_TOKEN=your_token_here" > ~/.claude/channels/discord/.env
 chmod 600 ~/.claude/channels/discord/.env
 ```
 
-Configure Claude Code to use it:
+Then configure:
 
 ```
 /discord:configure your_token_here
 ```
 
-## Launching with Channels
+## Launching
 
 ```bash
 claude --channels plugin:discord@claude-plugins-official --dangerously-skip-permissions
 ```
 
-The `--dangerously-skip-permissions` flag means Claude won't pause to ask you to approve tool use — necessary for async operation since you won't be at the terminal. Only use this in environments you trust.
+`--dangerously-skip-permissions` skips tool approval prompts. Without it, Claude will pause waiting for terminal input that never comes. Only use it in an environment you control.
 
-DM your bot on Discord. It replies with a pairing code. Back in Claude Code:
+DM the bot. It replies with a pairing code. In Claude Code:
 
 ```
 /discord:access pair <code>
 /discord:access policy allowlist
 ```
 
-The allowlist policy means only your Discord account can drive the session — everyone else is silently dropped.
+That last command locks it down — only your Discord account can talk to it. Everyone else gets silently dropped.
+
+## Multi-User Access and Server Channels
+
+The access control lives in `~/.claude/channels/discord/access.json`. After initial setup mine looks roughly like:
+
+```json
+{
+  "dmPolicy": "allowlist",
+  "allowFrom": ["your-discord-id"],
+  "groups": {
+    "your-server-channel-id": {
+      "requireMention": false,
+      "allowFrom": ["your-discord-id", "friend-discord-id"]
+    }
+  }
+}
+```
+
+The `groups` key is where you configure server channels. I added a text channel in my Discord server so a friend could use the bot too — since you can't add a bot to a group DM, a server channel is the right move. `requireMention: false` means they don't have to @mention the bot, it responds to everything in that channel.
+
+The `/discord:access` commands handle all of this — you don't manually edit the JSON. The channel re-reads the config automatically.
+
+To add a server channel and allow someone:
+
+```
+/discord:access group add <channel-id>
+/discord:access group <channel-id> allow <user-id>
+```
+
+People you add this way don't need to pair or do any setup. You're the one running the session — they just talk to the bot.
 
 ## Making It Persistent
 
-The tricky part: Claude Code detects whether it has an interactive terminal (TTY). Running it as a plain systemd service fails because there's no TTY, and it exits with `Input must be provided either through stdin or as a prompt argument when using --print`.
+This is the annoying part. Claude Code checks whether it has an interactive terminal (TTY) on startup. Run it as a plain systemd service and it immediately dies with:
 
-The workaround that works is wrapping it in `tmux` with `script` to fake a PTY:
+```
+Error: Input must be provided either through stdin or as a prompt argument when using --print
+```
+
+The fix: wrap it in `tmux` + `script` to fake a PTY.
 
 ```bash
 tmux new-session -d -s claude \
   'script -q -c "claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official" /dev/null'
 ```
 
-When the session starts you'll get a one-time "do you trust this folder?" prompt. Answer it:
+There's also a one-time "do you trust this folder?" prompt on first run. Answer it:
 
 ```bash
 tmux send-keys -t claude '' Enter
 ```
 
-To attach later and see what's happening:
+After that it runs headlessly. Attach any time with:
 
 ```bash
 tmux attach -t claude
-# Detach without killing: Ctrl+B then D
+# Detach: Ctrl+B then D
 ```
 
 ### NixOS
 
-If you're on NixOS, add `bun` to your system packages and a systemd service that wraps the tmux launch. Here's the relevant config block:
+Add `bun` to system packages and a service:
 
 ```nix
 environment.systemPackages = with pkgs; [
   bun
-  # ... your other packages
+  # ...
 ];
 
 systemd.services.claude-discord = {
@@ -143,14 +172,13 @@ systemd.services.claude-discord = {
 };
 ```
 
-Note: the systemd service approach has the same TTY issue. The `script` wrapper resolves it for the NixOS service as well, but the first-run trust prompt still needs to be answered interactively once. After that it runs headlessly.
+Same TTY caveat applies — you'll need to answer the trust prompt once interactively before the service will run fully headlessly.
 
-## Running It on a $13/Month GCP VM
+## Running It on a GCP VM (~$13/month)
 
-If you don't have a homelab or want a dedicated cloud instance:
+No homelab? An e2-small in us-central1 is about $13/month and has enough RAM. e2-micro is ~$6 but the Claude Code installer gets OOM killed — learned that the hard way.
 
 ```bash
-# Create the project and VM
 gcloud projects create my-claude-bot
 gcloud config set project my-claude-bot
 gcloud services enable compute.googleapis.com
@@ -160,97 +188,48 @@ gcloud compute instances create claude-bot \
   --image-family=ubuntu-2404-lts-amd64 \
   --image-project=ubuntu-os-cloud \
   --boot-disk-size=20GB
+```
 
-# Add swap (e2-small has 2GB RAM, the installer needs headroom)
+Add swap before installing Claude Code — the installer needs the headroom even on e2-small:
+
+```bash
 gcloud compute ssh claude-bot --zone=us-central1-a --command="
-  sudo fallocate -l 2G /swapfile
-  sudo chmod 600 /swapfile
-  sudo mkswap /swapfile
-  sudo swapon /swapfile
+  sudo fallocate -l 2G /swapfile && sudo chmod 600 /swapfile &&
+  sudo mkswap /swapfile && sudo swapon /swapfile &&
   echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 "
 ```
 
-e2-small runs about **$13/month**. e2-micro is ~$6 but too tight for the Claude Code installer — it gets OOM killed without swap.
-
-SSH in, create a dedicated user, install Bun and Claude Code, drop the bot token in the env file, and follow the same setup steps as above.
-
-The neat thing about GCP is that anyone with project access can attach to the tmux session via Cloud Shell:
+The GCP angle is nice for shared setups — anyone with project access can watch the session via Cloud Shell:
 
 ```bash
-# In Cloud Shell at console.cloud.google.com
 gcloud compute ssh claude-bot --zone=us-central1-a
 sudo -u claude tmux attach -t claude
 ```
 
-This makes it genuinely collaborative — your whole team can see what Claude is doing in real time.
+## Why This Beats OpenClaw
 
-## Building a Chatbot for Non-Technical Users
+OpenClaw got popular because it solved a real problem — async, chat-driven AI agents that work while you're away from the terminal. But it did it with third-party code, unofficial API patterns, and a [CVSS 8.8 WebSocket hijacking vulnerability](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) that I don't feel great about on a homelab that also runs production stuff.
 
-This is where it gets interesting. The `--channels` flag and the access control system give you a real foundation for a multi-user chatbot that's actually backed by a legit Anthropic subscription.
+Channels is the same pattern, except:
 
-### Expanding the Allowlist
+- It's first-party Anthropic code
+- Your Max subscription explicitly covers it
+- Access control is built in, not bolted on
+- You're not running someone's npm package with root access
 
-The default pairing locks to a single Discord account. But you can add more users:
+The one real gap: Channels is reactive. OpenClaw has a heartbeat that polls a task list on a timer. Claude Code has [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) which covers some of this — or you can wire up a cron job that sends a Discord message on a schedule and Claude picks it up through the channel.
 
-1. Have the new user DM the bot — they'll get a pairing code
-2. Run `/discord:access pair <code>` to approve them
-3. Their Discord ID is now on the allowlist
+## Limitations Worth Knowing
 
-Each user in the allowlist can send messages that Claude will respond to. This turns your Claude Code session into a shared assistant for a small team or group.
+- Research preview — the `--channels` syntax may change
+- Claude Max required — no API key auth
+- TTY workaround required for headless/service use
+- Telegram and Discord only for now (custom channels need `--dangerously-load-development-channels`)
+- Reactive only — no built-in proactive/heartbeat behavior yet
 
-### What This Looks Like in Practice
+## That's It
 
-Create a private Discord server. Invite your bot. Walk each person through the pairing flow (it's just: DM the bot, get a code, give it to whoever runs the setup). Now your whole group has a conversational AI assistant that:
+If you've been running OpenClaw or looking for an excuse to, this is the cleaner path. The Discord setup is approachable enough to walk a non-technical person through — they just need to be in a server your bot is in, and you add their ID to the allowlist. No pairing, no setup on their end.
 
-- Runs on your hardware or a VM you control
-- Is backed by your Claude Max subscription (fully sanctioned by Anthropic)
-- Has access to whatever your homelab or server exposes
-- Responds in Discord, where non-technical users already are
-
-For non-technical users, Discord is a far more natural interface than a terminal. They don't need to know what Claude Code is — they just DM a bot and get answers.
-
-### Coaching New Users Through It
-
-If you want others to run their *own* instance (rather than sharing yours), the barrier is low:
-
-1. They need a **Claude Max subscription** (~$100/month) — this is the sanctioned path, not a workaround
-2. Install Claude Code (`curl -fsSL https://claude.ai/install.sh | bash`)
-3. Install Bun, create a Discord bot, drop the token in the env file
-4. Run with `--channels` and pair
-
-The whole thing takes maybe 20 minutes the first time. The Discord Developer Portal setup is the fiddliest part — walk them through it over a screen share.
-
-### Why This Beats OpenClaw
-
-OpenClaw (and its predecessors) achieved the same async, chat-driven AI agent pattern, but:
-
-- Required running third-party code with broad system access
-- Has had documented security issues (CVSS 8.8 WebSocket hijacking)
-- Used unofficial API access patterns
-- Required significant self-hosting infrastructure
-
-Claude Code Channels gives you the same workflow with:
-
-- First-party Anthropic code
-- A subscription that explicitly covers this use case
-- Per-sender allowlisting built in
-- No unofficial API gymnastics
-
-The one honest gap: Channels is still **reactive only**. OpenClaw has a heartbeat system where the agent proactively checks a task list on a timer. Claude Code's [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) feature covers some of this, and you can bridge the rest with a cron job that drops a message into Discord via the API on a schedule — Claude picks it up through the channel and acts on it.
-
-## Current Limitations
-
-- **Research preview** — the `--channels` flag syntax may change
-- **No proactive behavior** — Claude waits for you to message it
-- **Permission prompts block async** — `--dangerously-skip-permissions` is required for headless use
-- **TTY requirement** — running as a plain service requires the `script` workaround described above
-- **Only Telegram and Discord** for now — custom channels require `--dangerously-load-development-channels`
-
-## Wrapping Up
-
-Claude Code Channels is the right way to do what people have been hacking together with OpenClaw, AutoGPT wrappers, and unofficial API access for years. It's backed by a real subscription, built by Anthropic, and designed for exactly this use case.
-
-The Discord setup is approachable enough that you can walk non-technical users through it. And with the allowlist system, you can share one instance with a small group without giving anyone more access than they need.
-
-If you set this up and hit issues, the [Claude Code GitHub repo](https://github.com/anthropics/claude-code/issues) is the right place to report them — it's actively monitored during the research preview.
+Hit issues? [Claude Code GitHub](https://github.com/anthropics/claude-code/issues) — it's monitored during the preview.
