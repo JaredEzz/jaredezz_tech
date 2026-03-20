@@ -145,7 +145,7 @@ tmux attach -t claude
 # Detach: Ctrl+B then D
 ```
 
-### NixOS
+### NixOS (skip if you're not on it)
 
 Add `bun` to system packages and a service:
 
