@@ -209,9 +209,13 @@ sudo -u claude tmux attach -t claude
 
 ## vs. OpenClaw
 
-OpenClaw solved a real problem — async Claude agents you can ping from your phone. I get why people ran it. But it's third-party code with root access, unofficial API patterns, and a [CVSS 8.8 WebSocket hijacking vuln](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) that I'm not thrilled about on a box that also runs actual stuff.
+OpenClaw solved a real problem — async AI agents you can ping from your phone. I get why people ran it. But it's third-party code with root access, unofficial API patterns, and a [CVSS 8.8 WebSocket hijacking vuln](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) that I'm not thrilled about on a box that also runs actual stuff.
 
 Channels is the same workflow, first-party, with access control built in from the start.
+
+For context on where I'm coming from: I use Claude Code daily for freelance projects and on a Team plan at work. I've used OpenCode extensively. I've tried most of the models seriously — GLM-5, MiniMax, Gemini 2.0 Pro and Flash, Codex 5.4 and 5.5, others. Opus 4.6 is the best I've used for agentic coding, and I don't think it's close.
+
+The reason is vertical integration. Anthropic built the model, the harness, the tooling, and the subscription together. It's a walled garden in the same way Apple is — the iPhone, iCloud, and Apple Silicon all work better together than any of them would with third-party alternatives. You can have opinions about that tradeoff, but the quality is hard to argue with.
 
 The honest gap: it's reactive. OpenClaw has a heartbeat that polls a task list on a timer. Claude Code has [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) for some of that, and for the rest — a cron job that drops a message into Discord works fine. Claude picks it up through the channel.
 
