@@ -217,7 +217,7 @@ For context on where I'm coming from: I use Claude Code daily for freelance proj
 
 The reason is vertical integration. Anthropic built the model, the harness, the tooling, and the subscription together. It's a walled garden in the same way Apple is — the iPhone, iCloud, and Apple Silicon all work better together than any of them would with third-party alternatives. You can have opinions about that tradeoff, but the quality is hard to argue with.
 
-The honest gap: it's reactive. OpenClaw has a heartbeat that polls a task list on a timer. Claude Code has [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) for some of that, and for the rest — a cron job that drops a message into Discord works fine. Claude picks it up through the channel.
+One thing it doesn't do yet: proactive behavior. It's reactive. OpenClaw has a heartbeat that polls a task list on a timer. Claude Code has [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) for some of that, and for the rest — a cron job that drops a message into Discord works fine. Claude picks it up through the channel.
 
 ## Current limitations
 
