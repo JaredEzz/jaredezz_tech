@@ -32,7 +32,7 @@ It's also the "OpenClaw on a real subscription" pattern, done properly. More on 
 ## What You Need
 
 - **Claude Code v2.1.80+** — `claude update`
-- **Claude Max** ($100/month) — Channels require claude.ai login, API keys don't work
+- **A Claude subscription** — Channels require claude.ai login, API keys don't work. Pro ($20/month) should be fine for personal use. Max ($100/month) gets you virtually unlimited — I've never hit the cap on Max 5x
 - **Bun** — the channel plugins are Bun scripts
 - **A Discord bot** — free, takes 5 minutes in the Developer Portal
 - **Somewhere to run it** — homelab, VPS, whatever
