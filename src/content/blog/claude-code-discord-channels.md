@@ -1,8 +1,8 @@
 ---
 author: JaredEzz
 pubDatetime: 2026-03-20T11:38:00.000Z
-title: "Claude Code Channels: the right way to run it headlessly via Discord (without OpenClaw)"
-postSlug: claude-code-channels-discord-without-openclaw
+title: "Claude Code Channels: the right way to run it headlessly via Discord (best OpenClaw alternative)"
+postSlug: claude-code-channels-discord-openclaw-alternative
 featured: true
 tags:
   - ai
