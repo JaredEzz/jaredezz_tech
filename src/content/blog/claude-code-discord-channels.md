@@ -207,29 +207,24 @@ gcloud compute ssh claude-bot --zone=us-central1-a
 sudo -u claude tmux attach -t claude
 ```
 
-## Why This Beats OpenClaw
+## vs. OpenClaw
 
-OpenClaw got popular because it solved a real problem — async, chat-driven AI agents that work while you're away from the terminal. But it did it with third-party code, unofficial API patterns, and a [CVSS 8.8 WebSocket hijacking vulnerability](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) that I don't feel great about on a homelab that also runs production stuff.
+OpenClaw solved a real problem — async Claude agents you can ping from your phone. I get why people ran it. But it's third-party code with root access, unofficial API patterns, and a [CVSS 8.8 WebSocket hijacking vuln](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) that I'm not thrilled about on a box that also runs actual stuff.
 
-Channels is the same pattern, except:
+Channels is the same workflow, first-party, with access control built in from the start.
 
-- It's first-party Anthropic code
-- Your Max subscription explicitly covers it
-- Access control is built in, not bolted on
-- You're not running someone's npm package with root access
+The honest gap: it's reactive. OpenClaw has a heartbeat that polls a task list on a timer. Claude Code has [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) for some of that, and for the rest — a cron job that drops a message into Discord works fine. Claude picks it up through the channel.
 
-The one real gap: Channels is reactive. OpenClaw has a heartbeat that polls a task list on a timer. Claude Code has [Scheduled Tasks](https://code.claude.com/docs/en/scheduled-tasks) which covers some of this — or you can wire up a cron job that sends a Discord message on a schedule and Claude picks it up through the channel.
+## Current limitations
 
-## Limitations Worth Knowing
+- Research preview — `--channels` syntax may change
+- Requires claude.ai login, no API key auth
+- TTY workaround needed for headless/service use (the `script` thing above)
+- Telegram and Discord only for now — custom channels need `--dangerously-load-development-channels`
+- Reactive only, no built-in heartbeat
 
-- Research preview — the `--channels` syntax may change
-- Claude Max required — no API key auth
-- TTY workaround required for headless/service use
-- Telegram and Discord only for now (custom channels need `--dangerously-load-development-channels`)
-- Reactive only — no built-in proactive/heartbeat behavior yet
+## Wrapping up
 
-## That's It
+If you've been running OpenClaw or considering it, this is the same thing without the sketchiness. For sharing with non-technical people — they don't need to do any setup. Get them into a server with the bot, add their Discord ID to the allowlist, done.
 
-If you've been running OpenClaw or looking for an excuse to, this is the cleaner path. The Discord setup is approachable enough to walk a non-technical person through — they just need to be in a server your bot is in, and you add their ID to the allowlist. No pairing, no setup on their end.
-
-Hit issues? [Claude Code GitHub](https://github.com/anthropics/claude-code/issues) — it's monitored during the preview.
+Hit issues? [Claude Code GitHub](https://github.com/anthropics/claude-code/issues).
