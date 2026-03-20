@@ -1,8 +1,8 @@
 ---
 author: JaredEzz
 pubDatetime: 2026-03-20T12:00:00.000Z
-title: Claude Code Channels — Your AI Dev Assistant on Discord
-postSlug: claude-code-discord-channels
+title: "The right way to run Claude Code headlessly via Discord (without OpenClaw)"
+postSlug: claude-code-channels-discord-without-openclaw
 featured: true
 tags:
   - ai
