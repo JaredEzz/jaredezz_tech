@@ -228,3 +228,9 @@ The honest gap: it's reactive. OpenClaw has a heartbeat that polls a task list o
 If you've been running OpenClaw or considering it, this is the same thing without the sketchiness. For sharing with non-technical people — they don't need to do any setup. Get them into a server with the bot, add their Discord ID to the allowlist, done.
 
 Hit issues? [Claude Code GitHub](https://github.com/anthropics/claude-code/issues).
+
+---
+
+*Yes, Claude helped write this — as a summary of a setup process I did entirely manually, which took most of a night. I reread it, edited it, and iterated a few times. I don't consider that AI slop any more than using Grammarly makes your email AI-generated. The actual work happened first.*
+
+If this saved you time, drop a comment below. Curious how people are using Channels — especially if you find a cleaner solution to the TTY problem.
