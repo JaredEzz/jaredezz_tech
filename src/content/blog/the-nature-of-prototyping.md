@@ -50,9 +50,9 @@ Why I think this comes at a perfect time is that our entire team is just now sta
 ![Tuckman's stages of group development: forming, storming, norming, performing](/assets/tuckman-stages.webp)
 
 <details>
-<summary>How I learned this</summary>
+<summary>Where I first saw this chart</summary>
 
-When I was a teenager my dad drove me down to southern Utah so I could attend a Timberline scout camp. He attended a Wood Badge course himself — basically the same thing but for adults — at the next campground over. We had dinner together a few times during the week but it was mostly separate. The few things I remember were a crazy capture the flag game in the woods, being ostracized as "the city kid" because I showed up in a purple-and-black tie-dyed v-neck that apparently wasn't up to rural Utah fashion standards, and a small booklet with leadership principles, one of which depicted Tuckman's stages of group development.
+*When I was a teenager my dad drove me down to southern Utah so I could attend a Timberline scout camp. He attended a Wood Badge course himself — basically the same thing but for adults — at the next campground over. We had dinner together a few times during the week but it was mostly separate. The few things I remember were a crazy capture the flag game in the woods, being ostracized as "the city kid" because I showed up in a purple-and-black tie-dyed v-neck that apparently wasn't up to rural Utah fashion standards, and a small booklet with leadership principles, one of which depicted Tuckman's stages of group development.*
 
 </details>
 
