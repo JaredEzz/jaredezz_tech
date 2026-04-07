@@ -21,7 +21,7 @@ description: How four years of building "no more, no less" pushed our team towar
 
 Getting into this is going to require some natural history lessons about the company where I work.
 
-Four years ago we started with a single senior staff-level developer and a single junior developer — myself. We built an MVP system but tried hard not to optimize early and only built what we needed to. I eventually left my job to work full time on the project, but by that point I was far enough along in our system development that two things happened:
+Four years ago we started with a single senior staff-level developer and a single junior developer — myself. We built an MVP system but tried hard not to optimize early and only built what we needed to. I eventually left my job to work full time on the project, but by that point two things had happened:
 
 1. We were asked to build features fast and dirty, so we could sell them and start to get clients.
 2. Because of personal reasons, the senior engineer left, and we hired more junior and mid-level developers.
@@ -30,9 +30,9 @@ Those two things led to a culture where we only built things out as much as we n
 
 ## The Rewrite
 
-Two to three years later, the core of our application was robust — the code was clean and maintainable, and worked well for our current customer base, but it was built on infrastructure that didn't scale well to multiple instances because of decisions made early on. Caches that built on startup with no good way of staying in sync with each other, a lack of typed structs on either side of an API call to enforce the contract — things that led to us doing a full rewrite of the back end, and a large refactoring of the front end into a cohesive architecture with separate layers.
+Two to three years later, the core of our application was robust — the code was clean-ish and mostly maintainable, and worked well for our customer base at the time, but it was built on infrastructure that didn't scale well to multiple instances because of decisions made early on. Caches that built on startup with no good way of staying in sync with each other, a lack of typed structs on either side of an API call to enforce the contract — things that led to us doing a full rewrite of the back end, and a large refactoring of the front end into a cohesive architecture with separate layers.
 
-This is fantastic, by the way. It's so much cleaner. But it was mostly driven by some new hires that had come from established companies with solid revenue pipelines. We weren't even breaking even. So what I fear we lost during that time was trust from our sales team that we could still deliver flashy, sexy new features at a speed that would support their efforts to get new clients.
+This is fantastic, by the way. It's so much cleaner. But it was mostly driven by some new hires that had come from established companies with solid revenue pipelines. We weren't even breaking even. So what I fear we lost during that time was trust from our sales team that we could still deliver flashy, sexy new features at a speed that would support their efforts to get new clients. Our team's perceived velocity had tanked.
 
 ## Solid, but Slow
 
@@ -49,7 +49,12 @@ Why I think this comes at a perfect time is that our entire team is just now sta
 
 ![Tuckman's stages of group development: forming, storming, norming, performing](/assets/tuckman-stages.webp)
 
+<details>
+<summary>How I learned this</summary>
+
 When I was a teenager my dad drove me down to southern Utah so I could attend a Timberline scout camp. He attended a Wood Badge course himself — basically the same thing but for adults — at the next campground over. We had dinner together a few times during the week but it was mostly separate. The few things I remember were a crazy capture the flag game in the woods, being ostracized as "the city kid" because I showed up in a purple-and-black tie-dyed v-neck that apparently wasn't up to rural Utah fashion standards, and a small booklet with leadership principles, one of which depicted Tuckman's stages of group development.
+
+</details>
 
 But AI isn't writing those features solidly for us yet. I could try to say why — either we haven't set up our AGENTS.md files correctly, or we need more skills, or we need to be using a better harness, or defining system prompts for various agents before setting them loose on a task. Or maybe it's because it can't do those things all by itself. Either way, I don't think it should. We don't want to [outsource our agency](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_1) in building this thing, so in the meantime we'll delegate small tasks along the way to solid features.
 
