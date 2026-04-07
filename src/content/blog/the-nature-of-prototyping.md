@@ -66,6 +66,8 @@ Design vs implementation is a constant catch-22, chicken-and-egg issue. You want
 
 Our prototypes have been awesome because we can have a discussion after only a tiny amount of work has been done (mostly by LLMs too) and we can look at an actual tangible thing, even if it's 0% functional, and decide whether it's technically possible to build, or whether we should can it and start over.
 
+For example, before the latest featureset our whole team worked on for a sprint and released last week, I spun up a quick React page with a few tabs and our main flows. It was in a separate repo in our org and deployed to a random GitHub Pages link, but it was perfect to use in early discussions to explain to the team what we were building, and we kept coming back to it throughout the sprint to maintain the vision.
+
 We've even gotten to the point where a prototype is in a really good state and development could start implementing it, but it's good enough that sales can just use it for demos until a client is invested enough in the idea that we can use it as contract renewal bait, or a potential client sees it as a deal-closer. We wait until then to fully build it out because the later it is, the more likely it is that we'll have more systems it needs to integrate with, or a different idea on how the implementation will go. It helps to have flexibility.
 
 So anyway, we're still working on our process, and there's no silver bullet, but as we look for ways to improve efficiency and communication, I'm definitely going to be building more prototypes to show off. Just a cool thing I've cared about recently that I thought would be nice to share.
