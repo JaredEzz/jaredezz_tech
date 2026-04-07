@@ -4,7 +4,6 @@ pubDatetime: 2026-04-07T06:08:00.000Z
 title: The Nature of Prototyping in Professional Development
 postSlug: the-nature-of-prototyping
 featured: true
-draft: true
 tags:
   - prototyping
   - software-engineering
