@@ -49,7 +49,7 @@ Why I think this comes at a perfect time is that our entire team is just now sta
 
 ![Tuckman's stages of group development: forming, storming, norming, performing](/assets/tuckman-stages.webp)
 
-<!-- TODO: Timberline scout camp anecdote about learning Tuckman's stages -->
+When I was a teenager my dad drove me down to southern Utah so I could attend a Timberline scout camp. He attended a Wood Badge course himself — basically the same thing but for adults — at the next campground over. We had dinner together a few times during the week but it was mostly separate. The few things I remember were a crazy capture the flag game in the woods, being ostracized as "the city kid" because I showed up in a purple-and-black tie-dyed v-neck that apparently wasn't up to rural Utah fashion standards, and a small booklet with leadership principles, one of which depicted Tuckman's stages of group development.
 
 But AI isn't writing those features solidly for us yet. I could try to say why — either we haven't set up our AGENTS.md files correctly, or we need more skills, or we need to be using a better harness, or defining system prompts for various agents before setting them loose on a task. Or maybe it's because it can't do those things all by itself. Either way, I don't think it should. We don't want to [outsource our agency](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_1) in building this thing, so in the meantime we'll delegate small tasks along the way to solid features.
 
