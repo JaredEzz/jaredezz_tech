@@ -59,3 +59,13 @@ When I was a teenager my dad drove me down to southern Utah so I could attend a 
 But AI isn't writing those features solidly for us yet. I could try to say why — either we haven't set up our AGENTS.md files correctly, or we need more skills, or we need to be using a better harness, or defining system prompts for various agents before setting them loose on a task. Or maybe it's because it can't do those things all by itself. Either way, I don't think it should. We don't want to [outsource our agency](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_1) in building this thing, so in the meantime we'll delegate small tasks along the way to solid features.
 
 But one thing AI coding tools are fantastic at one-shotting is prototypes.
+
+## Where Prototypes Fit
+
+Design vs implementation is a constant catch-22, chicken-and-egg issue. You want the design to be great, but maybe the UI designer doesn't realize the flashy feature they thought up is a performance nightmare and isn't mathematically possible. But if the developer starts building without understanding how the user will interact with the product, it will likely come out coarse and unrefined, and likely need a rewrite later.
+
+Our prototypes have been awesome because we can have a discussion after only a tiny amount of work has been done (mostly by LLMs too) and we can look at an actual tangible thing, even if it's 0% functional, and decide whether it's technically possible to build, or whether we should can it and start over.
+
+We've even gotten to the point where a prototype is in a really good state and development could start implementing it, but it's good enough that sales can just use it for demos until a client is invested enough in the idea that we can use it as contract renewal bait, or a potential client sees it as a deal-closer. We wait until then to fully build it out because the later it is, the more likely it is that we'll have more systems it needs to integrate with, or a different idea on how the implementation will go. It helps to have flexibility.
+
+So anyway, we're still working on our process, and there's no silver bullet, but as we look for ways to improve efficiency and communication, I'm definitely going to be building more prototypes to show off. Just a cool thing I've cared about recently that I thought would be nice to share.
