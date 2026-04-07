@@ -1,6 +1,6 @@
 ---
 author: JaredEzz
-pubDatetime: 2026-04-08T12:08:00.000Z
+pubDatetime: 2026-04-07T12:08:00.000Z
 title: The Nature of Prototyping in Professional Development
 postSlug: the-nature-of-prototyping
 featured: true
