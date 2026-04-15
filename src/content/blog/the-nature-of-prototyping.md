@@ -70,3 +70,15 @@ For example, before the latest featureset our whole team worked on for a sprint 
 We've even gotten to the point where a prototype is in a really good state and development could start implementing it, but it's good enough that sales can just use it for demos until a client is invested enough in the idea that we can use it as contract renewal bait, or a potential client sees it as a deal-closer. We wait until then to fully build it out because the later it is, the more likely it is that we'll have more systems it needs to integrate with, or a different idea on how the implementation will go. It helps to have flexibility.
 
 So anyway, we're still working on our process, and there's no silver bullet, but as we look for ways to improve efficiency and communication, I'm definitely going to be building more prototypes to show off. Just a cool thing I've cared about recently that I thought would be nice to share.
+
+---
+
+## About This Post
+
+A few friends and I decided to do a weekly blog challenge through the month of April 2026 — each week one of us picks a prompt and we all write something to it. <!-- TODO: who picked the Week 1 prompt and what was it? Drop in a sentence here and link the prompt. -->
+
+Go read what the others wrote this week:
+
+- [Sam](https://samwarnick.com/blog/four-keys-book-arts-and-project-hail-andy/)
+- [Carter](https://carter.works/blog/2026-04-07-im-enjoying-having-opinions/)
+- [Dave](https://catskull.net/nintendo-announces-3ds-successor-3ds-plus.html)
