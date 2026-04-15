@@ -75,7 +75,9 @@ So anyway, we're still working on our process, and there's no silver bullet, but
 
 ## About This Post
 
-A few friends and I decided to do a weekly blog challenge through the month of April 2026 — each week one of us picks a prompt and we all write something to it. <!-- TODO: who picked the Week 1 prompt and what was it? Drop in a sentence here and link the prompt. -->
+A few friends and I decided to do a weekly blog challenge through the month of April 2026 — each week one of us (in reverse alphabetical order, Wednesday to Tuesday) picks a prompt and we all write something to it. Week 1 was Sam's pick:
+
+> *What's something cool I'm caring about or into recently?*
 
 Go read what the others wrote this week:
 
