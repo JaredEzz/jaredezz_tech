@@ -72,7 +72,7 @@ Because of that, my whole family group chat ended up on Snapchat. It also happen
 
 For that same OS-agnostic reason, we've occasionally dabbled in the location-sharing feature too — handy for road trips, picking each other up, or just casually knowing whether someone's home.
 
-And honestly, I've come around on it — the platform's gravitational pull toward sending pictures means I get to see my nieces and nephews fairly frequently, in raw unedited moments. Stuff I assume would never make it into a polished iMessage thread or a posted story.
+And honestly, I've come around on it — the platform's gravitational pull toward sending pictures means I get to see my nieces and nephews fairly frequently, in raw unedited moments. Stuff I assume would never make it into a posted story or group text.
 
 ## Honorable Mentions
 
