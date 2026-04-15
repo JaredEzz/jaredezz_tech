@@ -24,9 +24,9 @@ description: A tour through the slices of the internet I keep coming back to —
 
 ## Intro
 
-It's kind of crazy to me that the internet is such a modern construct. I say to my wife multiple times a week, *"what a time to be alive"* — usually because we just got a steaming box of french fries from McDonald's for a dollar in five minutes, or a $5 rotisserie chicken from Walmart that exists because of a supply chain I can barely fathom (1).
+It's kind of crazy to me that the internet is such a modern construct. I say to my wife multiple times a week, *"what a time to be alive"* — usually because we just got a steaming box of french fries from McDonald's for a dollar in five minutes, or a $5 rotisserie chicken from Walmart that exists because of a supply chain I can barely fathom.<sup>[1](#footnotes)</sup>
 
-Or that we could send our embryos off to get genetically screened for [chromosome aneuploidy](https://en.wikipedia.org/wiki/Aneuploidy) (2) and, for a bit more money, get a full genome sequence on each one (3).
+Or that we could send our embryos off to get genetically screened for [chromosome aneuploidy](https://en.wikipedia.org/wiki/Aneuploidy)<sup>[2](#footnotes)</sup> and, for a bit more money, get a full genome sequence on each one.<sup>[3](#footnotes)</sup>
 
 Or that our car can autonomously get us from point A to point B with zero interventions 99% of the time.
 
@@ -110,8 +110,10 @@ Go read what the others wrote this week:
 
 ---
 
-(1) For most of human history, if you could eat animal protein regularly, you were participating in a luxury reserved for the wealthy or the fortunate. In the year of our lord 2026, you can walk into a store, spend four or five dollars that have been losing value incredibly fast due to recent inflation, and leave with 120g of cooked and mildly seasoned protein — made possible by vertically integrated supply chains, industrial genetics, automated processing, and a corporate pricing strategy that treats the product as a marketing instrument rather than a profit center. I know these chickens are raised somewhat unethically depending on your moral compass; there should be a better way, and if you want to buy free range I don't judge you for it. But aligning your source of food with your moral compass is also a luxury.
+#### Footnotes
 
-(2) [Aneuploidy on Wikipedia](https://en.wikipedia.org/wiki/Aneuploidy) — extra or missing chromosomes, the most common cause of failed embryo implantation and a lot of pregnancy loss.
+[1.](#intro) For most of human history, if you could eat animal protein regularly, you were participating in a luxury reserved for the wealthy or the fortunate. In the year of our lord 2026, you can walk into a store, spend four or five dollars that have been losing value incredibly fast due to recent inflation, and leave with 120g of cooked and mildly seasoned protein — made possible by vertically integrated supply chains, industrial genetics, automated processing, and a corporate pricing strategy that treats the product as a marketing instrument rather than a profit center. I know these chickens are raised somewhat unethically depending on your moral compass; there should be a better way, and if you want to buy free range I don't judge you for it. But aligning your source of food with your moral compass is also a luxury.
 
-(3) Okay, a *lot* more money. But that's relative. PGT-A testing was around $150–200 per embryo plus shipping. Full genome sequencing is roughly $2,500 per embryo. Considering humanity only fully completed the Human Genome Project in 2003 — and a single sequencing immediately after the technique was developed would have cost about $50 million — the cost of a small car to get the genetic code of ten potential offspring is, financially speaking, kind of approachable.
+[2.](#intro) [Aneuploidy on Wikipedia](https://en.wikipedia.org/wiki/Aneuploidy) — extra or missing chromosomes, the most common cause of failed embryo implantation and a lot of pregnancy loss.
+
+[3.](#intro) Okay, a *lot* more money. But that's relative. PGT-A testing was around $150–200 per embryo plus shipping. Full genome sequencing is roughly $2,500 per embryo. Considering humanity only fully completed the Human Genome Project in 2003 — and a single sequencing immediately after the technique was developed would have cost about $50 million — the cost of a small car to get the genetic code of ten potential offspring is, financially speaking, kind of approachable.
