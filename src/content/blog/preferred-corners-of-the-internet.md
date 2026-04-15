@@ -90,7 +90,7 @@ Cliché picks, I know — but they're cliché for a reason. I can lose hours on 
 
 ---
 
-The thread through all of these is the same: connection that I get to dial up or down on my terms. Voice rooms I can join or leave. Group brackets that ping me once a year. Game webhooks that fire when something cool happens. A family chat that fills up with raw, unposed pictures of my nieces and nephews — without an algorithm trying to keep me scrolling.
+The thread through all of these is the same: connection that I get to dial up or down on my terms. Voice rooms I can join or leave. Group brackets that ping me once a year. Game webhooks that fire when something cool happens. A family chat that fills up with candid, unposed pictures of my nieces and nephews — without an algorithm trying to keep me scrolling.
 
 What a time to be alive — but also, what a time to be intentional about *which* parts of it you let in.
 
