@@ -54,7 +54,7 @@ The competition itself is called "4 for 4," after the old Wendy's deal that was 
 
 I was exposed to RuneScape as early as age 5, played it throughout my childhood and at friends' houses, and eventually started a Group Ironman with one of my best friends. That account has kept us in touch through multiple cross-country moves.
 
-What makes it work is the third-party client — RuneLite — which lets the community build plugins and tools the game devs approve. Webhooks for level-ups and rare drops, progress trackers, screenshot sharing, all of it. So even when we're not in the game at the same time, we're sharing the excitement. That's made all the difference. A long-distance friendship needs reasons to ping each other, and a `99 Slayer` notification with a screenshot is a perfect one.
+What makes it work is the third-party client — RuneLite — which lets the community build plugins and tools the game devs approve. Webhooks for level-ups and rare drops, progress trackers, screenshot sharing, all of it. So even when we're not in the game at the same time, we're sharing the excitement of hitting [99 Fishing](https://oldschool.runescape.wiki/w/Fishing) or pulling an [enhanced crystal weapon seed](https://oldschool.runescape.wiki/w/Enhanced_crystal_weapon_seed) drop.<sup>[4](#footnotes)</sup> That's made all the difference. A long-distance friendship needs reasons to ping each other, and a notification with a screenshot is a perfect one.
 
 ## Minecraft
 
@@ -117,3 +117,5 @@ Go read what the others wrote this week:
 [2.](#intro) [Aneuploidy on Wikipedia](https://en.wikipedia.org/wiki/Aneuploidy) — extra or missing chromosomes, the most common cause of failed embryo implantation and a lot of pregnancy loss.
 
 [3.](#intro) Okay, a *lot* more money. But that's relative. PGT-A testing was around $150–200 per embryo plus shipping. Full genome sequencing is roughly $2,500 per embryo. Considering humanity only fully completed the Human Genome Project in 2003 — and a single sequencing immediately after the technique was developed would have cost about $50 million — the cost of a small car to get the genetic code of ten potential offspring is, financially speaking, kind of approachable.
+
+[4.](#mmorpgs-osrs-mostly) My Group Ironman friend and I were both grinding [Corrupted Gauntlet](https://oldschool.runescape.wiki/w/The_Corrupted_Gauntlet) hard in October 2023. The community often calls it the "red prison" because for ironman accounts it can be the longest grind in the game for a single item that's huge for account progression. Attempts take seven to ten minutes each, and the drop rate for the enhanced seed is 1/400. Imagine our confusion and excitement when we both got the drop within sixteen hours of each other — I got mine at 3pm during a break from work, he got his around 6am the next morning. The craziest thing.
