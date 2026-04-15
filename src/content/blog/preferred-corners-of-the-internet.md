@@ -18,7 +18,7 @@ tags:
 description: A tour through the slices of the internet I keep coming back to — and why hyperconnectivity I control beats social media that demands more than I want to give.
 ---
 
-> *"Our life is our time. What we spend our time on, we pay for with our lives."*
+> *Our life is our time. What we spend our time on, we pay for with our lives.*
 
 ## Table of Contents
 
