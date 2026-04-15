@@ -100,7 +100,7 @@ What a time to be alive — but also, what a time to be intentional about *which
 
 A few friends and I decided to do a weekly blog challenge through the month of April 2026 — each week one of us picks a prompt and we all write something to it. Week 2 was my turn, and I went with:
 
-> *"What are your favorite places on the internet or favorite things about the internet, and why? How do they differ from the parts of the internet that you dislike?"*
+> *What are your favorite places on the internet or favorite things about the internet, and why? How do they differ from the parts of the internet that you dislike?*
 
 Go read what the others wrote this week:
 
