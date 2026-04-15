@@ -1,6 +1,6 @@
 ---
 author: JaredEzz
-pubDatetime: 2026-04-16T04:14:00.000Z
+pubDatetime: 2026-04-14T22:14:00.000Z
 title: My Preferred Corners of the Internet, and Why I Spend My Time There
 postSlug: preferred-corners-of-the-internet
 featured: true
