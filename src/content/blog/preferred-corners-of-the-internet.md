@@ -26,7 +26,7 @@ description: A tour through the slices of the internet I keep coming back to —
 
 It's kind of crazy to me that the internet is such a modern construct. I say to my wife multiple times a week, *"what a time to be alive"* — usually because we just got a steaming box of french fries from McDonald's for a dollar in five minutes, or a $5 rotisserie chicken from Walmart that exists because of a supply chain I can barely fathom.<sup>[1](#footnotes)</sup>
 
-Or that we could send our embryos off to get genetically screened for [chromosome aneuploidy](https://en.wikipedia.org/wiki/Aneuploidy)<sup>[2](#footnotes)</sup> and, for a bit more money, get a full genome sequence on each one.<sup>[3](#footnotes)</sup>
+Or that we could send our embryos off to get genetically screened for chromosome aneuploidy<sup>[2](#footnotes)</sup> and, for a bit more money, get a full genome sequence on each one.<sup>[3](#footnotes)</sup>
 
 Or that our car can autonomously get us from point A to point B with zero interventions 99% of the time.
 
