@@ -46,7 +46,7 @@ I realized recently that every phone I've ever owned has had an X in its name. I
 
 ## The Laptop
 
-The first laptop I owned was a **late-2008 aluminum unibody MacBook**, a hand-me-down form my uncle when I started my freshman year college. After serving an LDS mission I tried to continue to use it as my college machine and it was so unusably slow that I just lived in the BYU engineering labs on their linux machines to do real work. That was fine before I was married, but then, spending all my time in a campus computer lab stopped being as acceptable, and I bought myself a fancy **HP Envy** with a two-way hinge and a touchscreen and pen support. I thought I'd use the pen all the time and, I did for a while but mostly it was just a novelty because OneNote always has sucked and always will.
+The first laptop I owned was a **late-2008 aluminum unibody MacBook**<sup>[2](#footnotes)</sup>, a hand-me-down form my uncle when I started my freshman year college. After serving an LDS mission I tried to continue to use it as my college machine and it was so unusably slow that I just lived in the BYU engineering labs on their linux machines to do real work. That was fine before I was married, but then, spending all my time in a campus computer lab stopped being as acceptable, and I bought myself a fancy **HP Envy** with a two-way hinge and a touchscreen and pen support. I thought I'd use the pen all the time and, I did for a while but mostly it was just a novelty because OneNote always has sucked and always will.
 
 It was also the first computer I ever owned with an AMD chip. Which mattered to no one but me, and I still feel a little smug about it. My wife has used it repeatedly for touch-screen steam games like Mini Motorways, and we use it for Excel every month when we update our budgets and finances. It's probably on its last couple years of life, and I think about removing Windows in favor of a different OS which would either extend its lifespan or immediately end it. 50-50
 
@@ -108,13 +108,13 @@ In a family where I wasn't getting a cell phone before I was sixteen, and a soci
 
 ### The Peek
 
-The first machine I used for that was a little **Peek** email device.<sup>[2](#footnotes)</sup> My dad got it for me because he thought it was neat, and it was - the keyboard in particular was incredibly satisfying. I learned pretty quickly how to use email for everything. Dad would forward me the news, I signed up for a joke-of-the-day newsletter and a daily astronomy report, and at some point I figured out you could email a phone number and the person on the other end could reply with SMS or some kind of bridge. I still don't fully understand it, but it worked.
+The first machine I used for that was a little **Peek** email device.<sup>[3](#footnotes)</sup> My dad got it for me because he thought it was neat, and it was - the keyboard in particular was incredibly satisfying. I learned pretty quickly how to use email for everything. Dad would forward me the news, I signed up for a joke-of-the-day newsletter and a daily astronomy report, and at some point I figured out you could email a phone number and the person on the other end could reply with SMS or some kind of bridge. I still don't fully understand it, but it worked.
 
 My best friend had an iPod Touch and was in the same no-phone household I was. We emailed back and forth, and used our emails as a shared gateway to text our mutual friends. It was absurd, but it worked and I felt pretty clever about it.
 
 ### Palm Treo 700wx
 
-At some point my dad upgraded from his **Palm Treo**<sup>[3](#footnotes)</sup> and it came down to me. That thing was a brick - I probably could've dropped it and the floor would get more damaged than it would. I loved the stylus for the same reason I loved the DS - I was used to it, and it felt cool to use on Windows Mobile. But the Treo had actually usable apps, the most interesting of which was a web browser. Images barely loaded, which in hindsight was probably good for my nascent adolescent brain.
+At some point my dad upgraded from his **Palm Treo**<sup>[4](#footnotes)</sup> and it came down to me. That thing was a brick - I probably could've dropped it and the floor would get more damaged than it would. I loved the stylus for the same reason I loved the DS - I was used to it, and it felt cool to use on Windows Mobile. But the Treo had actually usable apps, the most interesting of which was a web browser. Images barely loaded, which in hindsight was probably good for my nascent adolescent brain.
 
 Google Voice, though, had no trouble launching, so I got myself a phone number. I'm still a little unclear on how the Treo had internet at all, but I think it worked without wifi. Those were the wild-west of 3G days, and I wasn't using much bandwidth, so it's possible my parents were quietly paying for a cell line they didn't know I was using, or it was just an included add-on. I texted my friends like crazy on that, and it worked so much better and faster than the Peek.
 
@@ -154,12 +154,16 @@ Go read what the others wrote this week:
 
 ![Moto X (1st gen)](/assets/moto-x.jpg)
 
-[2.](#the-peek) The **Peek** email device. Mine had a black front like the first photo; the second shows the back well. Images originally from [The Gadgeteer](https://the-gadgeteer.com/2010/10/) and [Wired](https://www.wired.com/).
+[2.](#the-laptop) The **late-2008 MacBook** (MB466LL, aluminum unibody). Image via [UsedMac](https://usedmac.com/).
+
+![Late-2008 aluminum unibody MacBook](/assets/macbook-2008.jpg)
+
+[3.](#the-peek) The **Peek** email device. Mine had a black front like the first photo; the second shows the back well. Images originally from [The Gadgeteer](https://the-gadgeteer.com/2010/10/) and [Wired](https://www.wired.com/).
 
 ![Peek with black front](/assets/peek-black.jpg)
 
 ![Peek back view](/assets/peek-back.jpg)
 
-[3.](#palm-treo-700wx) The **Palm Treo 700wx** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700wx) (same photo used for both 700w and 700wx articles — visually identical).
+[4.](#palm-treo-700wx) The **Palm Treo 700wx** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700wx) (same photo used for both 700w and 700wx articles — visually identical).
 
 ![Palm Treo 700wx](/assets/palm-treo-700w.jpg)
