@@ -112,7 +112,7 @@ The first machine I used for that was a little **Peek** email device.<sup>[1](#f
 
 My best friend had an iPod Touch and was in the same no-phone household I was. We emailed back and forth, and used our emails as a shared gateway to text our mutual friends. It was absurd, but it worked and I felt pretty clever about it.
 
-### Palm Treo 700W
+### Palm Treo 700wx
 
 At some point my dad upgraded from his **Palm Treo**<sup>[2](#footnotes)</sup> and it came down to me. That thing was a brick - I probably could've dropped it and the floor would get more damaged than it would. I loved the stylus for the same reason I loved the DS - I was used to it, and it felt cool to use on Windows Mobile. But the Treo had actually usable apps, the most interesting of which was a web browser. Images barely loaded, which in hindsight was probably good for my nascent adolescent brain.
 
@@ -156,6 +156,6 @@ Go read what the others wrote this week:
 
 ![Peek back view](/assets/peek-back.jpg)
 
-[2.](#palm-treo-700w) The **Palm Treo 700w** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700w).
+[2.](#palm-treo-700wx) The **Palm Treo 700wx** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700wx) (same photo used for both 700w and 700wx articles — visually identical).
 
-![Palm Treo 700w](/assets/palm-treo-700w.jpg)
+![Palm Treo 700wx](/assets/palm-treo-700w.jpg)
