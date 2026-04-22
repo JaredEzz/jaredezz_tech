@@ -156,6 +156,6 @@ Go read what the others wrote this week:
 
 ![Peek back view](/assets/peek-back.jpg)
 
-[2.](#palm-treo-700w) The **Palm Treo 700** — mine was the 700w (Windows Mobile); this is the 700p (Palm OS). Same brick, different brain. Image via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treo700p.png).
+[2.](#palm-treo-700w) The **Palm Treo 700w** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700w).
 
-![Palm Treo 700](/assets/palm-treo-700p.png)
+![Palm Treo 700w](/assets/palm-treo-700w.jpg)
