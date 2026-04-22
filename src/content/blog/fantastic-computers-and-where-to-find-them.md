@@ -13,7 +13,7 @@ tags:
   - kindle
   - pixel
   - personal
-description: A tour through every computer I've owned — phones, laptops, the homelab, the tablets, and the janky formative-years devices I used to text my friends before I was allowed to have one.
+description: A tour through some of the computers I've owned — phones, laptops, the homelab, the tablets, and the janky formative-years devices I used to text my friends before I was allowed to have one.
 ---
 
 > *A computer is the most remarkable tool that we've ever come up with. It's the equivalent of a bicycle for our minds.*
