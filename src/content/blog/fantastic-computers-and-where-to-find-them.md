@@ -1,6 +1,6 @@
 ---
 author: JaredEzz
-pubDatetime: 2026-04-23T05:22:00.000Z
+pubDatetime: 2026-04-22T05:22:00.000Z
 title: Fantastic Computers & Where to Find Them
 postSlug: fantastic-computers-and-where-to-find-them
 featured: true
@@ -150,9 +150,11 @@ Go read what the others wrote this week:
 
 #### Footnotes
 
-[1.](#the-peek) The **Peek** in hand — I never saw one in any other color than white, but these existed in others. Image via [Wikipedia](https://en.wikipedia.org/wiki/Peek_(mobile_Internet_device)).
+[1.](#the-peek) The **Peek** email device. Mine had a black front like the first photo; the second shows the back well. Images originally from [The Gadgeteer](https://the-gadgeteer.com/2010/10/) and [Wired](https://www.wired.com/).
 
-![Peek email device](/assets/peek-mobile.jpg)
+![Peek with black front](/assets/peek-black.jpg)
+
+![Peek back view](/assets/peek-back.jpg)
 
 [2.](#palm-treo-700w) The **Palm Treo 700** — mine was the 700w (Windows Mobile); this is the 700p (Palm OS). Same brick, different brain. Image via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treo700p.png).
 
