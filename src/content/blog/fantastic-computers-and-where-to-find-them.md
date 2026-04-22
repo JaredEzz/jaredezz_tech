@@ -37,7 +37,7 @@ It's kind of hard to argue that the phone isn't the most important computer I ow
 
 It's a camera, a flashlight, my tap-to-pay wallet replacement, a TV, a map, and a gaming handheld. Lately it's been a great terminal for vibe-coding. If I had to pick one computer to keep I'd probably keep this one. It wouldn't be the most enjoyable to use because while it does a lot of things, it doesn't do any of them particularly well - I love that I have the luxury of preferring depth over breadth, but it is what it is.
 
-My very first smartphone was the **Moto X**. It was 2014 and I was starting my senior year of high school, and Motorola had just been acquired by Google and was making phones in Houston, where I was born! The customization was super fun and I was excited about Android 4.4.4 KitKat as a google fanboy.  
+My very first smartphone was the **Moto X**<sup>[1](#footnotes)</sup>. It was 2014 and I was starting my senior year of high school, and Motorola had just been acquired by Google and was making phones in Houston, where I was born! The customization was super fun and I was excited about Android 4.4.4 KitKat as a google fanboy.  
 After that, the phones I've had in order: **Nexus 5X, Pixel 2, Pixel 4XL, Pixel 6, Pixel 10 Pro.**
 
 I realized recently that every phone I've ever owned has had an X in its name. I didn't do that on purpose, but I've accidentally locked myself into a tradition I now have to keep. If companies stop using words like "Max" or "XL" sizing I may have to invent my own phone or never upgrade. Honestly, the only reason I'd make a big change in the smartphone space is to get a foldable, which I've come close to a few times but haven't pulled the trigger on. Currently eyeing the latest Oppo Find N6 - it looks promising, but alas, no X in the name.
@@ -108,13 +108,13 @@ In a family where I wasn't getting a cell phone before I was sixteen, and a soci
 
 ### The Peek
 
-The first machine I used for that was a little **Peek** email device.<sup>[1](#footnotes)</sup> My dad got it for me because he thought it was neat, and it was - the keyboard in particular was incredibly satisfying. I learned pretty quickly how to use email for everything. Dad would forward me the news, I signed up for a joke-of-the-day newsletter and a daily astronomy report, and at some point I figured out you could email a phone number and the person on the other end could reply with SMS or some kind of bridge. I still don't fully understand it, but it worked.
+The first machine I used for that was a little **Peek** email device.<sup>[2](#footnotes)</sup> My dad got it for me because he thought it was neat, and it was - the keyboard in particular was incredibly satisfying. I learned pretty quickly how to use email for everything. Dad would forward me the news, I signed up for a joke-of-the-day newsletter and a daily astronomy report, and at some point I figured out you could email a phone number and the person on the other end could reply with SMS or some kind of bridge. I still don't fully understand it, but it worked.
 
 My best friend had an iPod Touch and was in the same no-phone household I was. We emailed back and forth, and used our emails as a shared gateway to text our mutual friends. It was absurd, but it worked and I felt pretty clever about it.
 
 ### Palm Treo 700wx
 
-At some point my dad upgraded from his **Palm Treo**<sup>[2](#footnotes)</sup> and it came down to me. That thing was a brick - I probably could've dropped it and the floor would get more damaged than it would. I loved the stylus for the same reason I loved the DS - I was used to it, and it felt cool to use on Windows Mobile. But the Treo had actually usable apps, the most interesting of which was a web browser. Images barely loaded, which in hindsight was probably good for my nascent adolescent brain.
+At some point my dad upgraded from his **Palm Treo**<sup>[3](#footnotes)</sup> and it came down to me. That thing was a brick - I probably could've dropped it and the floor would get more damaged than it would. I loved the stylus for the same reason I loved the DS - I was used to it, and it felt cool to use on Windows Mobile. But the Treo had actually usable apps, the most interesting of which was a web browser. Images barely loaded, which in hindsight was probably good for my nascent adolescent brain.
 
 Google Voice, though, had no trouble launching, so I got myself a phone number. I'm still a little unclear on how the Treo had internet at all, but I think it worked without wifi. Those were the wild-west of 3G days, and I wasn't using much bandwidth, so it's possible my parents were quietly paying for a cell line they didn't know I was using, or it was just an included add-on. I texted my friends like crazy on that, and it worked so much better and faster than the Peek.
 
@@ -150,12 +150,16 @@ Go read what the others wrote this week:
 
 #### Footnotes
 
-[1.](#the-peek) The **Peek** email device. Mine had a black front like the first photo; the second shows the back well. Images originally from [The Gadgeteer](https://the-gadgeteer.com/2010/10/) and [Wired](https://www.wired.com/).
+[1.](#the-phone--swiss-army-knife) The **Moto X** (1st gen, 2013). Mine had a silver accent ring instead of the red one in this shot. Image via [IBTimes UK](https://www.ibtimes.co.uk/).
+
+![Moto X (1st gen)](/assets/moto-x.jpg)
+
+[2.](#the-peek) The **Peek** email device. Mine had a black front like the first photo; the second shows the back well. Images originally from [The Gadgeteer](https://the-gadgeteer.com/2010/10/) and [Wired](https://www.wired.com/).
 
 ![Peek with black front](/assets/peek-black.jpg)
 
 ![Peek back view](/assets/peek-back.jpg)
 
-[2.](#palm-treo-700wx) The **Palm Treo 700wx** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700wx) (same photo used for both 700w and 700wx articles — visually identical).
+[3.](#palm-treo-700wx) The **Palm Treo 700wx** — exact model I had. Image via [Wikipedia](https://en.wikipedia.org/wiki/Treo_700wx) (same photo used for both 700w and 700wx articles — visually identical).
 
 ![Palm Treo 700wx](/assets/palm-treo-700w.jpg)
