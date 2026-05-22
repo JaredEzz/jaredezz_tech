@@ -10,14 +10,16 @@ tags:
   - video-games
   - game-collection
   - howlongtobeat
-description: A full catalog of my Nintendo Switch library — descriptions, cover art, reviews, and HowLongToBeat estimates. Ranked top picks first, then sorted by playability (singleplayer / co-op / party / online).
+description: A ranked play-order I'd recommend to a Switch newcomer, drawn from my own library — plus the full catalog with HowLongToBeat estimates, Metacritic scores, and player-mode breakdowns.
 ---
 
 ## Table of Contents
 
 ## Intro
 
-A full catalog of my Switch library — descriptions, cover art, reviews, and HowLongToBeat estimates. The top of the list is my personal ranking; below that, games are grouped by playability (singleplayer offline first, then mostly-singleplayer with optional co-op, then party / local-multiplayer titles, then primarily-online games).
+*[intro paragraph coming]*
+
+The catalog of my Switch library — descriptions, cover art, reviews, and HowLongToBeat estimates. The top section is a **recommended play order** for someone new to my library; below that, games are grouped by playability (singleplayer offline first, then mostly-singleplayer with optional co-op, then party / local-multiplayer titles, then primarily-online games).
 
 **Quick stats**
 
@@ -30,9 +32,9 @@ A full catalog of my Switch library — descriptions, cover art, reviews, and Ho
 
 ---
 
-## ⭐ Top Ranked
+## ⭐ Recommended Play Order
 
-Personal top picks, in priority order.
+A suggested play order for someone new to my library — top to bottom.
 
 ### 1. The Legend of Zelda: Breath of the Wild
 <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" alt="cover" style="max-width:200px;max-height:280px;" />
