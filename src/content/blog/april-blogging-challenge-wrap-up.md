@@ -16,7 +16,7 @@ description: A recap of the April 2026 blogging challenge — at a personal comp
 
 ## Intro
 
-This past April, some former coworker/internet friends and I took turns picking a weekly prompt that we all wrote about.
+This past April, some friends and I took turns picking a weekly prompt that we all wrote about.
 
 I didn't write my last article because of excuses — my wife was sick, our baby wasn't sleeping well, and I had poor time management. I formally apologized in our biweekly game night, and shared what my answer to the question would be, so the guys forgave me. Here's my wrap-up though as a peace offering.
 
