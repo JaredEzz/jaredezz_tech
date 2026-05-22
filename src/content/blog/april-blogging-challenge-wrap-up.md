@@ -1,6 +1,6 @@
 ---
 author: JaredEzz
-pubDatetime: 2026-05-22T23:30:00.000Z
+pubDatetime: 2026-05-21T22:30:00.000Z
 title: April Blogging Challenge Wrap-Up
 postSlug: april-blogging-challenge-wrap-up
 featured: true
