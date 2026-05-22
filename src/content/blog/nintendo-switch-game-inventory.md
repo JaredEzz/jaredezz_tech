@@ -17,9 +17,15 @@ description: A ranked play-order I'd recommend to a Switch newcomer, drawn from 
 
 ## Intro
 
-*[intro paragraph coming]*
+I'm kind of an influencer among my family members :) ([I'm a big deal, Google me](https://share.google/DDkkAEQ9jdMkQZFdH) plays in the distance)
 
-The catalog of my Switch library — descriptions, cover art, reviews, and HowLongToBeat estimates. The top section is a **recommended play order** for someone new to my library; below that, games are grouped by playability (singleplayer offline first, then mostly-singleplayer with optional co-op, then party / local-multiplayer titles, then primarily-online games).
+My siblings-in-law are all awesome though. One speaks Lithuanian, one speaks Korean, one knows what terms like *epistemology* mean and can use them in academic papers, and one knows everything there is to know about every major sport. Oh, and every one of them is a twin. 2 sets.
+
+We like to play Mario Kart together a lot. Two of them bought Nintendo Switch systems while they were in college, and we play them whenever we're in town. Occasionally we'll take advantage of the weirdly complicated ways of sharing games across accounts, and this summer one of them is going cross country to work in Kalamazoo, so he wanted access to all my games and recommendations for what to play, so this is for him.
+
+---
+
+A few notes on what's below: the top section is a **recommended play order** for someone new to my library. After that, every game in the catalog gets its own entry — descriptions, cover art, reviews, HowLongToBeat bars, and Metacritic ratings — grouped by playability (singleplayer offline first, then mostly-singleplayer with optional co-op, then party / local-multiplayer titles, then primarily-online games).
 
 **Quick stats**
 
